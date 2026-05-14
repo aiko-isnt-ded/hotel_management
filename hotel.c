@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Size : 12 bytes, no padding
 typedef struct room
 {
-    float precio;
-    int numero;
-    int ocupada;
+    float precio;       // 4 bytes
+    int numero;         // 4 bytes
+    int ocupada;        // 4 bytes
 } Habitacion;
 
 enum TipoHabitacion
